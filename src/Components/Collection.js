@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 
 export default function Collection({ product, handleWishlist, handleCart }) {
 
-    let { title, image: img, price, actualPrice } = product;
+    let { title, image: img, price, actualPrice, rating } = product;
 
     return (
         <div className="item border">
             <Link to={'/product/' + product.id} target='_blank'>
             <img src={img} className='img-fluid p-2' alt="" />
                 <div className="d-flex justify-content-between px-2 item-div-1">
-                    <p className='mb-1 text-muted'>Reviews <i className='fa-regular fa-star'></i></p>
+                    <p className='mb-1 text-muted'>Reviews {rating} <i className='fa-regular fa-star'></i></p>
                     <p className='mb-1 text-decoration-line-through text-muted'>{actualPrice}</p>
                 </div>
                 <div className="d-flex justify-content-between px-2 item-div-2">

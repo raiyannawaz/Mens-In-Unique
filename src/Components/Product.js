@@ -65,7 +65,7 @@ export default function Product({ products, setProducts, handleWishlist, handleC
       <div className='container-fluid'>
         <div className="row">
           <div className="col-lg-11 col-12 mx-auto">
-            <div className="row gy-lg-0 gx-5">
+            <div className="row gy-lg-0 gx-lg-5 gx-0">
               {/* Left */}
               <div className="col-lg-4 col-12">
                 <div className="item-img" style={{ height: '350px' }}>

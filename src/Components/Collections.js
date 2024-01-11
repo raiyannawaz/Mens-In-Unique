@@ -39,7 +39,7 @@ export default function Collections({ products, handleWishlist, handleCart }) {
         <button data-id='accessories' className='col-auto mx-2 px-lg-3' onClick={handleCategory}>Accessories</button>
       </div>
       
-      <div className="row g-lg-4 g-2 px-lg-5">
+      <div className="row g-lg-4 g-2">
         {category.map((product)=>{
           return <div className="col-lg-3 col-md-4 col-6" key={product.id}>
             <Collection product={product} handleWishlist={handleWishlist} handleCart={handleCart}/>
