@@ -11,7 +11,7 @@ export default function Collection({ product, handleWishlist, handleCart }) {
             <img src={img} className='img-fluid p-2' alt="" />
                 <div className="d-flex justify-content-between px-2 item-div-1">
                     <p className='mb-1 text-muted'>Reviews {rating} <i className='fa-regular fa-star'></i></p>
-                    <p className='mb-1 text-decoration-line-through text-muted'>{actualPrice}</p>
+                    <p className='mb-1 text-decoration-line-through text-muted'>₹{actualPrice}</p>
                 </div>
                 <div className="d-flex justify-content-between px-2 item-div-2">
                     <h5 className='mb-2'>{title}</h5>
