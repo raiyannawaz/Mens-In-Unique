@@ -78,9 +78,9 @@ export default function Product({ products, setProducts, handleWishlist, handleC
                   <div className="d-flex justify-content-between align-items-center pe-lg-5 pe-1 mb-1">
                   <h4 className='fw-bold m-0'>₹{price}</h4>
                   <div className="d-flex">
-                      <p className='fs-5 m-0 me-lg-2 mx-1 fw-light'>MRP</p>
-                      <p className='fs-5 m-0 me-lg-2 mx-1 text-decoration-line-through text-muted'> ₹{actualPrice}</p>
-                      <p className='fs-5 m-0 me-lg-2 mx-1 text-danger fw-lighter'>{`Rs.(${actualPrice - price}) Off`}</p>
+                      <p className='fs-5 m-lg-0 me-lg-2 mx-1 fw-light'>MRP</p>
+                      <p className='fs-5 m-lg-0 me-lg-2 mx-1 text-decoration-line-through text-muted'> ₹{actualPrice}</p>
+                      <p className='fs-5 m-lg-0 me-lg-2 mx-1 text-danger fw-lighter'>{`Rs.(${actualPrice - price}) Off`}</p>
                     </div>
                   </div>
                 </div>
