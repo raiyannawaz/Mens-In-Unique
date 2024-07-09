@@ -17,7 +17,7 @@ const Cart = () => {
         })
 
         setCartItems(filteredItems)
-    }, [])
+    }, [localItems])
 
     let productsAmount = cartItems.map(item => {
         return item.price * item.listed.cart.quantity
