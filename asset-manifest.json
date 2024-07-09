@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mens-In-Unique/static/css/main.0ccb2147.css",
-    "main.js": "/Mens-In-Unique/static/js/main.11818862.js",
+    "main.js": "/Mens-In-Unique/static/js/main.966a8543.js",
     "static/js/453.0b71bf06.chunk.js": "/Mens-In-Unique/static/js/453.0b71bf06.chunk.js",
     "static/media/pic3.jpg": "/Mens-In-Unique/static/media/pic3.f4f8460ffff669ff8f86.jpg",
     "static/media/shoes.jpg": "/Mens-In-Unique/static/media/shoes.c61dcca8c391ab0b6cd5.jpg",
@@ -25,11 +25,11 @@
     "static/media/hoodie.webp": "/Mens-In-Unique/static/media/hoodie.f1a3b9d87550dbe64c5b.webp",
     "index.html": "/Mens-In-Unique/index.html",
     "main.0ccb2147.css.map": "/Mens-In-Unique/static/css/main.0ccb2147.css.map",
-    "main.11818862.js.map": "/Mens-In-Unique/static/js/main.11818862.js.map",
+    "main.966a8543.js.map": "/Mens-In-Unique/static/js/main.966a8543.js.map",
     "453.0b71bf06.chunk.js.map": "/Mens-In-Unique/static/js/453.0b71bf06.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ccb2147.css",
-    "static/js/main.11818862.js"
+    "static/js/main.966a8543.js"
   ]
 }
